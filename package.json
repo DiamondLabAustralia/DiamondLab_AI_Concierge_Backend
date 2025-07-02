@@ -1,7 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "abort-controller": "^3.0.0",
     "accepts": "^1.3.8",
@@ -96,20 +100,5 @@
     "web-streams-polyfill": "^4.0.0-beta.3",
     "webidl-conversions": "^3.0.1",
     "whatwg-url": "^5.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DiamondLabAustralia/DiamondLab_AI_Concierge_Backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DiamondLabAustralia/DiamondLab_AI_Concierge_Backend/issues"
-  },
-  "homepage": "https://github.com/DiamondLabAustralia/DiamondLab_AI_Concierge_Backend#readme",
-  "description": ""
+  }
 }
